@@ -1,0 +1,23 @@
+body {
+}
+
+#image-header {
+    display: flex;
+}
+
+#image-header img {
+    width: 30%;
+    margin: 10px;
+}
+
+#invite-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#add-to-calendars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
