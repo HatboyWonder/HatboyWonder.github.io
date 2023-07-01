@@ -1,23 +1,73 @@
+@font-face {
+    font-family: 'myfont';
+    src: url(assets/DancingScript-VariableFont_wght.ttf);
+}
+
+@media screen {
+    
+}
+
 body {
+    font-family: 'myfont';
+}
+
+#invite-text * {
+    margin: 10px;
+}
+
+#invite-text h1 {
+    font-size: 55px;
+}
+
+#thank-you-text h1 {
+    font-size: 45px;
+}
+
+#thank-you-text * {
+    margin: 10px;
+}
+
+#thank-you-text h2 {
+    font-size: 25px;
 }
 
 #image-header {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #image-header img {
-    width: 30%;
-    margin: 10px;
+    margin: 5px;
+    width: 95%;
+    height: 400px;
+    object-fit: cover;
 }
 
-#invite-text {
+.center-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #add-to-calendars {
+    font-family: sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+#add-to-calendars a {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: darkolivegreen;
+    opacity: .7;
+    text-decoration: none;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
 }
