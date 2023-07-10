@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'myfont';
+    font-family: 'myfont', serif;
 }
 
 #invite-text * {
